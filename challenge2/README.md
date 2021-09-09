@@ -1,5 +1,6 @@
 # nitish-challenge-code
-This python script runs on azure virtual machine , gets it metadata, print it and also allows user to get value of any key in that metadata.
+This python script runs on azure virtual machine , gets it metadata, print it and also allows user to get value of any key in that metadata. 
+
 
 
 - Function metadata() gets metdata of instance and print json response on terminal
@@ -11,4 +12,12 @@ To run script:
 
 `python metadata.py`
 
-This will print computerName and its private ip address
+This will prmpt user to give any required key ( For e.g. Enter Key name: privateIpAddress)
+
+**Output**
+- privateIpAddress is -> 10.x.x.x
+- computerName is -> nnxxxxvm1
+
+
+
+*This code is tested with python 2.7.18.If using python3 then replace raw_input weith input*
