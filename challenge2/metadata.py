@@ -30,6 +30,7 @@ def fetch(data,v):
 
 
 if __name__ == "__main__":
-  data=metadata()
-  fetch(data,"privateIpAddress")
-  fetch(data,"computerName")
+    user_input=raw_input("Enter Key name: ")
+    data=metadata()
+    fetch(data,user_input)
+    fetch(data,"computerName")

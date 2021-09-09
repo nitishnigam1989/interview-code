@@ -16,9 +16,10 @@ def fetch(data,v):
                     fetch(val,v)
 
 
-user_input1={"a":{"b":{"c":"d"}}}
-user_input2={"x":{"y":{"z":"a"}}}
+
 
 if __name__ == "__main__":
-  fetch(data,"privateIpAddress")
-  fetch(data,"computerName")
+    user_input1={"a":{"b":{"c":"d"}}}
+    user_input2={"x":{"y":{"z":"a"}}}
+    fetch(user_input1,"a")
+    fetch(user_input2,"z")
